@@ -1,0 +1,352 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 10:01:12] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 10:02:45] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 10:06:51] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 10:13:23] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 11:15:50] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 108, in trigger
+    for line in iter(main(name,position), None):
+TypeError: iter(v, w): v must be callable
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 11:28:51] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 108, in trigger
+    for line in iter(main(name,position), None):
+TypeError: iter(v, w): v must be callable
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 11:28:55] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 109, in trigger
+    for line in iter(d, None):
+TypeError: iter(v, w): v must be callable
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 11:39:06] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 109, in trigger
+    for line in iter(d, None):
+TypeError: iter(v, w): v must be callable
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 11:39:14] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 11:43:04] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 12:26:13] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'trigger' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 12:26:48] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'trigger' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 12:29:10] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 12:47:56] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 109, in trigger
+    job = q.enqueue(main,(name,position))
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 506, in enqueue
+    on_failure, pipeline, args, kwargs) = Queue.parse_args(f, *args, **kwargs)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 473, in parse_args
+    raise ValueError('Functions from the __main__ module cannot be processed '
+ValueError: Functions from the __main__ module cannot be processed by workers
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 13:13:28] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 109, in trigger
+    job = q.enqueue(main,(name,position))
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 506, in enqueue
+    on_failure, pipeline, args, kwargs) = Queue.parse_args(f, *args, **kwargs)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 473, in parse_args
+    raise ValueError('Functions from the __main__ module cannot be processed '
+ValueError: Functions from the __main__ module cannot be processed by workers
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 13:16:09] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 110, in trigger
+    job = q.enqueue(main,position)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 506, in enqueue
+    on_failure, pipeline, args, kwargs) = Queue.parse_args(f, *args, **kwargs)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 473, in parse_args
+    raise ValueError('Functions from the __main__ module cannot be processed '
+ValueError: Functions from the __main__ module cannot be processed by workers
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 13:17:08] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 110, in trigger
+    job = q.enqueue(main,position)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 506, in enqueue
+    on_failure, pipeline, args, kwargs) = Queue.parse_args(f, *args, **kwargs)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 473, in parse_args
+    raise ValueError('Functions from the __main__ module cannot be processed '
+ValueError: Functions from the __main__ module cannot be processed by workers
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 13:22:13] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 110, in trigger
+    job = q.enqueue(main,position)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 506, in enqueue
+    on_failure, pipeline, args, kwargs) = Queue.parse_args(f, *args, **kwargs)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 473, in parse_args
+    raise ValueError('Functions from the __main__ module cannot be processed '
+ValueError: Functions from the __main__ module cannot be processed by workers
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 13:25:13] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 110, in trigger
+    job = q.enqueue(main,position)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 506, in enqueue
+    on_failure, pipeline, args, kwargs) = Queue.parse_args(f, *args, **kwargs)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 473, in parse_args
+    raise ValueError('Functions from the __main__ module cannot be processed '
+ValueError: Functions from the __main__ module cannot be processed by workers
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 13:26:57] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 111, in trigger
+    job = q.enqueue(main,position)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 506, in enqueue
+    on_failure, pipeline, args, kwargs) = Queue.parse_args(f, *args, **kwargs)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 473, in parse_args
+    raise ValueError('Functions from the __main__ module cannot be processed '
+ValueError: Functions from the __main__ module cannot be processed by workers
+INFO:werkzeug:127.0.0.1 - - [06/May/2022 13:46:35] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 111, in trigger
+    job = q.enqueue(main,position)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 506, in enqueue
+    on_failure, pipeline, args, kwargs) = Queue.parse_args(f, *args, **kwargs)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 473, in parse_args
+    raise ValueError('Functions from the __main__ module cannot be processed '
+ValueError: Functions from the __main__ module cannot be processed by workers
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 12:11:55] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 108, in trigger
+    main(name,position)
+TypeError: main() takes 1 positional argument but 2 were given
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 12:12:44] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 12:15:35] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 19:12:03] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Project\salary scrapping\salary.py", line 110, in trigger
+    job = q.enqueue(main,(name,position))
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 506, in enqueue
+    on_failure, pipeline, args, kwargs) = Queue.parse_args(f, *args, **kwargs)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\rq\queue.py", line 473, in parse_args
+    raise ValueError('Functions from the __main__ module cannot be processed '
+ValueError: Functions from the __main__ module cannot be processed by workers
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 19:16:23] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:salary:Exception on /trigger [POST]
+Traceback (most recent call last):
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1526, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1545, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Project\salary scrapping\salary\lib\site-packages\flask\app.py", line 1701, in make_response
+    raise TypeError(
+TypeError: The view function for 'trigger' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/May/2022 19:18:45] "[35m[1mPOST /trigger HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:47:40] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:51:51] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 16:57:09] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 18:07:35] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 19:01:26] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 19:03:18] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/May/2022 19:22:15] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 11:24:49] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 11:39:12] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 11:41:12] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 12:15:28] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 12:21:21] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 12:25:30] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 12:28:37] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 12:30:32] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 13:03:58] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 13:05:54] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 13:07:00] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 13:08:12] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/May/2022 16:16:45] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 11:17:21] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 11:25:51] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 11:38:18] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 11:43:29] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 11:45:24] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 11:47:34] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 12:01:12] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 13:05:25] "[31m[1mGET /trigger HTTP/1.1[0m" 405 -
+ERROR:werkzeug:127.0.0.1 - - [12/May/2022 13:05:25] code 400, message Bad request syntax ('{')
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 13:05:25] "[35m[1mNone /trigger HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/May/2022 13:07:58] "POST /trigger HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/May/2022 17:12:21] "POST /trigger HTTP/1.1" 200 -
